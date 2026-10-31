@@ -15,3 +15,8 @@ Página de apresentação da **MMK Digital** (Márcia Mendes Kitamoto | Social M
 - `index.html` — a landing page completa (arquivo único, adicionado via pull request)
 
 > "Quem não é visto, não é lembrado. E quem não é lembrado, não vende."
+
+## Publicação
+
+- Repositório conectado ao projeto da MMK no **Lovable** (sincronização pela branch `main`)
+- Última atualização da `main`: 30/10/2026 — landing page publicada via Pull Request #1
