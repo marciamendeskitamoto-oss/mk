@@ -330,7 +330,20 @@
         .hero-ctas .btn { flex: 1 1 100%; justify-content: center; }
         footer.site { padding-bottom: 6rem; }
       }
-    </style>
+    
+    /* ===== Ajustes finos para celular (iPhone e Android) ===== */
+    html { -webkit-text-size-adjust: 100%; }
+    body { overflow-x: clip; }
+    section[id] { scroll-margin-top: 92px; }
+    .wa-float { bottom: calc(1.1rem + env(safe-area-inset-bottom)); right: calc(1.1rem + env(safe-area-inset-right)); }
+    @media (max-width: 900px) {
+      .hero-photo img { aspect-ratio: 4 / 4.6; }
+    }
+    @media (max-width: 640px) {
+      .hero-photo { max-width: 400px; margin-inline: auto; }
+      .hero-card { max-width: 78vw; }
+    }
+</style>
   </head>
   <body>
     <header class="site">
